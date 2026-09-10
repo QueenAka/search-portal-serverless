@@ -37,7 +37,7 @@ body {
 .logo {
   width: 500px;
   height: 77px;
-  background-image: url(media/large.svg);
+  background-image: url(large.svg);
   background-position: center;
   background-size: contain;
 }
@@ -59,7 +59,7 @@ body {
   display: block;
   width: 50px;
   height: 50px;
-  mask-image: url(media/search.svg);
+  mask-image: url(search.svg);
   mask-size: 25px;
   mask-position: center;
   mask-repeat: no-repeat;
