@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <link
+      rel="icon"
+      href="./media/small.svg"
+      sizes="any"
+      type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Starstruct | Search</title>
+  </head>
+  <body ui="main">
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+    </div>
+    <nav>
+      <div>
+        <a
+          class="icon"
+          style="--img: url(media/small.svg)"
+          href="https://queenaka.github.io"></a>
+      </div>
+      <div>
+        <a
+          class="icon"
+          style="--img: url(media/twitter.svg)"
+          href="https://x.com/QueenAkaTech"></a>
+        <a
+          class="icon"
+          style="--img: url(media/github.svg)"
+          href="https://github.com/QueenAka"></a>
+        <a
+          class="icon"
+          style="--img: url(media/scratch.svg)"
+          href="https://scratch.mit.edu/users/AkaTech/"></a>
+        <a
+          class="icon"
+          style="--img: url(media/discord.svg)"
+          href="https://discord.com/users/1053491056127250462"></a>
+      </div>
+    </nav>
+    <main id="main">
+      <div class="logo" id="logo"></div>
+      <div class="search">
+        <label for="search"></label>
+        <input id="search" autocomplete="off" />
+      </div>
+      <menu>
+        <div class="tab selected" type="web" onclick="setResults('web')">
+          Web
+        </div>
+        <div class="tab" type="images" onclick="setResults('images')">
+          Images
+        </div>
+      </menu>
+      <div class="results" id="results" type="web"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
